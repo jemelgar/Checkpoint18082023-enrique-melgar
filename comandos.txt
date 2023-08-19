@@ -1,0 +1,30 @@
+   90  code .
+   91  code .
+   92  code .
+   93  code .
+   94  code .
+   95  git init
+   96  git config --system init.defaultbranch main
+   97  git config --system init.defaultbranch main
+   98  git -d master
+   99  git init
+  100  git branch -m main
+  101  git remote add origin https://github.com/jemelgar/Checkpoint18082023-enrique-melgar.git
+  102  touch main.js index.html
+  103  gid add .
+  104  git add .
+  105  git commit -m "commit 01 de EnriqueMelgar"
+  106  git checkout -b feature
+  107  mkdir Hardware Software SeguridadInformatica
+  108  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+  109  git add .
+  110  git commit -m "commit 02 de EnriqueMelgar"
+  111  git push -u origin feature
+  112  git checkout -b main
+  113  git checkout  main
+  114  mv main.js resumenHardware.txt
+  115  mv index.html resumenSoftware.txt
+  116  nano resumenSoftware.txt 
+  117  nano resumenHardware.txt 
+  118  history 30 comandos.txt
+  119  history 30 >comandos.txt
